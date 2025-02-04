@@ -6,7 +6,7 @@
 **🚧 Codebase, datasets & models are coming soon!**  
 **⭐ Star to stay updated on our release progress!**
 
-![STAIR Intro Image](resources/intro.png) <!-- Replace with actual image path -->
+<img src="resources/intro.png" width="80%"><!-- Replace with actual image path -->
 
 Official implementation of **STAIR**, the framework presented in our paper "*Improving Safety Alignment with Introspective Reasoning*". STAIR enhances LLM safety with the incorporation step-by-step analysis of potential risks, providing more robust alignment while better maintaining model capabilities.
 
