@@ -12,7 +12,7 @@ Official implementation of **STAIR**, the framework presented in our paper "*Imp
 
 
 ### TODO List
-- [ ] <img src="resources/github-brands-solid.svg" width="20" height="20"> Official implementation of STAIR, including SI-MCTS, test-time scaling, etc.
+- [ ] <img src="resources/github-brands-solid.svg" width="20" height="20"> Official implementation of STAIR, including Safety-Informed MCTS (SI-MCTS), test-time scaling, etc.
 - [ ] 🤗 SFT dataset of structured CoT format alignment
 - [ ] 🤗 Model weights of LLMs (Llama-3.1-8B-Instruct, Qwen2-7B-Instruct) aligned with STAIR
 
