@@ -9,7 +9,7 @@
 
 Official implementation of **STAIR**, the framework presented in our paper "*Improving Safety Alignment with Introspective Reasoning*". STAIR enhances LLM safety with the incorporation step-by-step analysis of potential risks, providing more robust alignment while better maintaining model capabilities.
 
-In practice, we mainly take [LLaMaFactory](https://github.com/hiyouga/LLaMA-Factory) and [OpenRLHF](https://github.com/OpenRLHF/OpenRLHF) for training on the generated data under the framework of STAIR. In this repository, we release the necessary datasets and model weights to implement our work, and provide the code for constructing pair-wise data via SI-MCTS to facilitate both step-level DPO and test-time scaling.
+In practice, we mainly take [LLaMaFactory](https://github.com/hiyouga/LLaMA-Factory) and [OpenRLHF](https://github.com/OpenRLHF/OpenRLHF) for training on the generated data under the framework of STAIR. In this repository, we release the necessary datasets and model weights to implement our work, and provide the code for constructing pair-wise data via SI-MCTS to facilitate step-level DPO.
 
 ## Released resources
 
