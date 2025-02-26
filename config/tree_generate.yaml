@@ -1,0 +1,26 @@
+actor_model_dir: "../actor"
+mode: "safe-constraint"
+generate_mode: "vllm"
+worker_num: 3
+server_url: http://0.0.0.0:80/v1
+worker_prompt_num: 1
+temperature: 1.2
+top_p: 0.9
+top_k: 50
+max_tokens: 2048
+seed: 42
+stop_tokens: ['<|/Reasoning_step|>', '<|/Output|>', '<|eot_id|>', '<|end_of_text|>']
+end_tokens: ['<|/Output|>', '<|eot_id|>', '<|end_of_text|>']
+train_prompt_path: "../prompt_data/examples.json"
+output_path: "../mct_data"
+c: 1.5
+max_depth: 7
+iterations: 200
+generate_samples_number: 4
+visit_all_node: True
+p_average_strategy: "uniform"
+able_to_reselected: True
+score_type: "UCB"
+use_cache: True
+cache_dir: "../cache"
+log_file: "../log/log.txt"

@@ -1,0 +1,13 @@
+python src/generate_actor_traindata.py \
+    --seed 42 \
+    --mcts_path "mct_data/your mct data.json" \
+    --traindata_type "dpo" \
+    --v_threshold 0.5 \
+    --actor_data_path "actor_train_data/your actor train data.jsonl" \
+    --tokenizer_path "actor" \
+    --max_tokens 2048 \
+    --max_child_num 4 \
+    --min_visit_times 4 \
+    --max_gb_ratio 4 \
+    --good_value_threshold 0.8 \
+    --max_sft_label 8 \
