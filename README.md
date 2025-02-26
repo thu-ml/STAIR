@@ -119,7 +119,7 @@ You can construct tuning data for your actor model once MCT data are generated. 
 We sincerely appreciate the well-maintained libraries like [LLaMaFactory](https://github.com/hiyouga/LLaMA-Factory) and [OpenRLHF](https://github.com/OpenRLHF/OpenRLHF), which help us develop our models more effectively.
 
 ## Citation
-If you find LLaVA useful for your research and applications, please cite using this BibTeX:
+If you find STAIR useful for your research and applications, please cite using this BibTeX:
 
 ```
 @article{zhang2025stair,
