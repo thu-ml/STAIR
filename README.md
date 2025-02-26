@@ -1,6 +1,6 @@
 # STAIR: Improving Safety Alignment with Introspective Reasoning
 
-[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2406.07057)
+[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2502.02384)
 ![GitHub stars](https://img.shields.io/github/stars/thu-ml/STAIR?style=social)
 
 **STAIR helps your model get safer step by step ! ⭐ Star if this inspires you!**
